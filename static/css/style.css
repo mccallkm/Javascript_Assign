@@ -95,12 +95,12 @@ select {
 .hero {
   position: relative;
   height: 550px;
-  padding: 20px;
-  margin: 0;
+  padding: 10px;
+  margin: 20;
   background: black;
-  background-image: url("../images/nasa.jpg");
+  background-image: url("../images/ufo.jpg");
   background-attachment: fixed;
-  background-position: bottom center;
+  background-position: center;
   background-size: cover;
 }
 
@@ -115,6 +115,7 @@ select {
   opacity: 0;
   animation: subtitle 1.2s forwards linear;
   animation-delay: 1.2s;
+  text-decoration-color: black;
 }
 
 /* input placeholder color changes */
